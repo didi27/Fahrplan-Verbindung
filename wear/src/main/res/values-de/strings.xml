@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Verbindung</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+    <string name="title_activity_result">Result</string>
+    <string name="title_activity_loading">LoadingActivity</string>
+    <string name="loading_connections">Verbindungen werden geladen...</string>
+    <string name="send_request_error">Verbindungsanfrage konnte nicht gesendet werden</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VerbindungUhr"
+    tools:deviceIds="wear_square"
+    android:weightSum="1"
+    android:background="@color/white">
+
+
+
+
+    <ImageButton
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:id="@+id/imageButton"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.85"
+        android:src="@drawable/icon_micro"
+        android:background="@color/white"
+        android:onClick="onButtonClicked"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text='"Olten NACH Zürich"'
+        android:textColor="@color/grey"
+        android:gravity="center"
+        android:id="@+id/hintSpeak" />
+</RelativeLayout>
